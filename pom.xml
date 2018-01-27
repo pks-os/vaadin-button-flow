@@ -18,11 +18,11 @@
 
     <repositories>
         <repository>
-            <id>flow-component-base</id>
+            <id>vaadin-prereleases</id>
             <url>https://maven.vaadin.com/vaadin-prereleases</url>
         </repository>
         <repository>
-            <id>flow-component-base-snapshot</id>
+            <id>vaadin-snapshots</id>
             <name>Vaadin snapshot repository</name>
             <url>https://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
         </repository>
@@ -30,8 +30,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.webjars.bower</groupId>
+            <groupId>org.webjars.bowergithub.vaadin</groupId>
             <artifactId>vaadin-button</artifactId>
+            <version>2.0.0-alpha5</version>
         </dependency>
         <dependency>
             <groupId>com.vaadin</groupId>
@@ -58,7 +59,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.webjars.bower</groupId>
+            <groupId>org.webjars.bowergithub.vaadin</groupId>
             <artifactId>vaadin-icons</artifactId>
             <scope>test</scope>
         </dependency>
